@@ -13,3 +13,8 @@ Get-AppxPackage -AllUsers Microsoft.WindowsSoundRecorder | Remove-AppxPackage
 Get-AppxPackage -AllUsers Microsoft.PowerAutomateDesktop | Remove-AppxPackage
 Get-AppxPackage -AllUsers Microsoft.Xbox.TCUI | Remove-AppxPackage
 Get-AppxPackage -AllUsers Microsoft.GamingApp | Remove-AppxPackage
+Get-AppxPackage -AllUsers MicrosoftWindows.CrossDevice | Remove-AppxPackage
+Get-AppxPackage -AllUsers Microsoft.GetHelp | Remove-AppxPackage
+Get-AppxPackage -AllUsers Microsoft.YourPhone | Remove-AppxPackage
+Get-AppxPackage -AllUsers Microsoft.XboxGamingOverlay | Remove-AppxPackage
+Get-AppxPackage -AllUsers Microsoft.Getstarted | Remove-AppxPackage
