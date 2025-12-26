@@ -12,5 +12,10 @@
 - enable bitlocker
 
 ### scripted
-- clean.ps1
 - install.ps1
+- clean.ps1
+
+### hardening
+- baseline: NNN
+- deviations
+  - UAC: "Configure the system to only elevate executables that are signed and Validated."
